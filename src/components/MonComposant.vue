@@ -1,7 +1,29 @@
 <template>
-    <div class="bg-gray-100 flex text-center justify-center mt-0 mb-30  h-340 ">
-      <div>
-        <div class="bg-white rounded-lg shadow-lg p-8 text-center text-black flex flex-col items-center w-200 h-200 mt-50">
+
+     
+
+    <div class="bg-gray-100  mt-0 mb-30  h-400 ">
+         
+      <div class="flex flex-row space-x-8 justify-center ">
+<!-- Première carte -->
+<div class="bg-white rounded-6xl shadow-lg p-8 text-center text-black flex flex-col items-center h-20 w-90 ">
+
+ 
+</div>
+
+<!-- Deuxième carte -->
+<div class="bg-white rounded-6xl  shadow-lg p-8 text-center text-black flex flex-col h-20 items-center w-90">
+ 
+</div>
+  
+</div>
+    
+      
+          
+         <div class=" px-65 py-0 mt-0 ">
+
+        <div class="bg-white rounded-lg shadow-lg p-8 text-center text-black flex flex-col items-center px-60 w-200 h-200 mt-50">
+             
           <div class="w-full flex items-center justify-center space-x-4 mb-4">
             <!-- Premier input -->
             <div class="flex items-start rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300">
@@ -42,6 +64,8 @@
 
         </div>
           <!-- Section des prestataires -->
+
+
           <div class="bg-white  flex justify-center p-4 w-200 ">
     <div class="w-400 max-w-30xl bg-white rounded-lg shadow-lg ">
       <!-- En-tête du tableau -->
@@ -87,15 +111,19 @@
       </div>
     </div>
   </div>
- <p class="   text-sm">
+ <p class="text-sm">
         Les informations ci-dessus s'appliquent lorsque vous payez par virement bancaire. <a class="s" href=""> Comment collectons-nous ces informations ?</a>  </p>
          </div> 
        
       </div>
        
+    
     </div>
+    
       <div>
-        <div class=" flex justify-center items-center text-center p-20 px-10 card card-compact bg-base-100 w-350 mt-30 max-w-50xl ">
+       
+       
+        <div class=" flex justify-center items-center text-center p-20 px-10 card card-compact bg-base-100 w-300 mt-30 max-w-50xl ">
   <figure>
     <img 
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"

@@ -1,8 +1,8 @@
 <template>
   
-  <div class="bg-gray-100 h-250 w-full mt-10">
+  <div class="bg-gray-100 h-350 w-full mt-10">
      
-      <div class="flex ">
+      <div class="flex  ">
         <div class="text-left py-35 px-30  text-4xl font-bold">
         Comparer les transferts <br> d'argent par prestataire
           <div class="text-left px-2 text-sm mt-5 ">
@@ -10,52 +10,138 @@
           </div>
             <div>
                 <button class="bg-green-500 text-black px-2 py-1 text-sm rounded-full ... mt-10 h-10 w-60">Voir tout les prestations</button>
-            </div>  
-         </div>
-
-         <div class="flex flex-col items-center">
+            </div> 
+            
+            <div class="flex flex-col gap-1 mt-50 items-center">
     <!-- Première ligne de cartes -->
-    <div class="flex justify-center items-center bg-gray-100 gap-0.5 py-15 mt-30">
-        <div class="block rounded-lg bg-white shadow-md dark:bg-surface-dark dark:text-white text-surface py-6" style="width: 15rem;">
-            <div class="p-6 text-center">
-                <h5 class="mb-2 text-xl font-medium leading-tight">PayPal</h5>
-                <p class="text-gray-600">Online Payments</p>
+    <div class="flex justify-center items-center bg-gray-100 gap-1">
+        <div class="block rounded-tl-3xl bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">Visa</h5>
+                <p class="text-gray-600 text-sm">Credit Card Services</p>
             </div>
         </div>
-
-        <div class="block rounded-lg bg-white shadow-md dark:bg-surface-dark dark:text-white text-surface py-6" style="width: 15rem;">
-            <div class="p-6 text-center">
-                <h5 class="mb-2 text-xl font-medium leading-tight">ING</h5>
-                <p class="text-gray-600">Banking Services</p>
+        <div class="block rounded-tr-3xl bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">Visa</h5>
+                <p class="text-gray-600 text-sm">Credit Card Services</p>
             </div>
         </div>
     </div>
 
-    <!-- Deuxième ligne de cartes, plus proche de la première -->
-    <div class="flex justify-center items-center bg-gray-100 gap-0.5 mb-20">
-        <div class="block rounded-lg bg-white shadow-md dark:bg-surface-dark dark:text-white text-surface py-6" style="width: 15rem;">
+    <!-- Deuxième ligne de cartes -->
+    <div class="flex justify-center items-center bg-gray-100 gap-1">
+        <div class="block bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">American Express</h5>
+                <p class="text-gray-600 text-sm">Travel & Entertainment</p>
+            </div>
+        </div>
+        <div class="block bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">Discover</h5>
+                <p class="text-gray-600 text-sm">Cashback Rewards</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Troisième ligne de cartes -->
+    <div class="flex justify-center items-center bg-gray-100 gap-1">
+        <div class="block rounded-bl-3xl bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">MasterCard</h5>
+                <p class="text-gray-600 text-sm">Payment Solutions</p>
+            </div>
+        </div>
+        <div class="block rounded-br-3xl bg-white shadow-md py-4 w-48">
+            <div class="p-4 text-center">
+                <h5 class="mb-2 text-lg font-medium">PayPal</h5>
+                <p class="text-gray-600 text-sm">Online Payments</p>
+            </div>
+        </div>
+    </div>   
+
+
+        
+
+</div>
+
+     
+    
+
+             </div>
+
+     
+  
+
+         <div class="flex flex-col gap-0.5 mt-10 items-center">
+    <!-- Première ligne de cartes -->
+    <div class="flex justify-center items-center bg-gray-100 gap-0.5">
+        <div class="block rounded-tl-3xl bg-white shadow-md py-6 w-60">
             <div class="p-6 text-center">
-                <h5 class="mb-2 text-xl font-medium leading-tight">Visa</h5>
+                <h5 class="mb-2 text-xl font-medium">Visa</h5>
                 <p class="text-gray-600">Credit Card Services</p>
             </div>
         </div>
-
-        <div class="block rounded-lg bg-white shadow-md dark:bg-surface-dark dark:text-white text-surface py-6" style="width: 15rem;">
+        <div class="block rounded-tr-3xl bg-white shadow-md py-6 w-60">
             <div class="p-6 text-center">
-                <h5 class="mb-2 text-xl font-medium leading-tight">MasterCard</h5>
-                <p class="text-gray-600">Payment Solutions</p>
+                <h5 class="mb-2 text-xl font-medium">Visa</h5>
+                <p class="text-gray-600">Credit Card Services</p>
             </div>
         </div>
     </div>
+
+    <!-- Deuxième ligne de cartes -->
+    <div class="flex justify-center items-center bg-gray-100 gap-0.5">
+        <div class="block  bg-white shadow-md py-6 w-60">
+            <div class="p-6 text-center">
+                <h5 class="mb-2 text-xl font-medium">American Express</h5>
+                <p class="text-gray-600">Travel & Entertainment</p>
+            </div>
+        </div>
+        <div class="block bg-white shadow-md py-6 w-60">
+            <div class="p-6 text-center">
+                <h5 class="mb-2 text-xl font-medium">Discover</h5>
+                <p class="text-gray-600">Cashback Rewards</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Troisième ligne de cartes -->
+    <div class="flex justify-center items-center bg-gray-100 gap-0.5">
+        <div class="block rounded-bl-3xl bg-white shadow-md py-6 w-60">
+            <div class="p-6 text-center">
+                <h5 class="mb-2 text-xl font-medium">MasterCard</h5>
+                <p class="text-gray-600">Payment Solutions</p>
+            </div>
+        </div>
+        <div class="block rounded-br-3xl bg-white shadow-md py-6 w-60">
+            <div class="p-6 text-center">
+                <h5 class="mb-2 text-xl font-medium">PayPal</h5>
+                <p class="text-gray-600">Online Payments</p>
+            </div>
+        </div>
+    </div>
+    <div class="py-30">
+         
+      salut
+    </div>
 </div>
 
-   
-        
 
-     
-</div>
+    
 
 
+
+
+
+
+
+
+
+
+
+         </div>
   </div>
   <div class="flex items-center justify-between  px-20 mt-10">
     <!-- Texte principal -->
@@ -162,7 +248,7 @@
      </div>
     
 
-        <div class="px-70">
+        <div class="px-45">
            
             <div class="card bg-green-600 text-primary-content h-160 rounded-lg w-250 py-20">
                 <div class="flex flex-col items-center text-center ">
@@ -179,11 +265,13 @@
 
                     Chaque trimestre, plus de 12.8 millions de personnes et <br> d'entreprises nous font confiance pour déplacer 30 milliards de GBP. <br> Nous sommes également notés « Excellent » sur Trustpilot.
                 </div>
-                <div class=" px-70">
+                <div class=" px-80">
                 <button class=" bg-green-500 text-black px-10 py-1 text-s=lg rounded-full ... mt-10 h-12 ">ce que disent nos clients</button>
-              </div>
-            
+              </div> 
+                
             </div>
+     
+
 
                
 
@@ -256,7 +344,7 @@
 
 
 <script>
-import { ArrowLeftRight, Bell, TrendingUp , Camera} from "lucide-vue-next";
+import { ArrowLeftRight, Bell, TrendingUp} from "lucide-vue-next";
 export default {
     components: {
     ArrowLeftRight,

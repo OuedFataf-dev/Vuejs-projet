@@ -73,7 +73,7 @@ h1 {
   </div>
 
   <!-- Deuxième carte -->
-  <div class="bg-white rounded md:rounded-lg ... shadow-lg p-8 text-center text-black flex flex-col items-center w-90">
+  <div class="bg-white shadow-lg p-8 text-center text-black flex flex-col items-center w-90">
     <div class="w-30 h-40 bg-gray-200 rounded-full flex items-center justify-center mb-4">
       <span class="text-3xl">🧳</span>
     </div>
@@ -91,7 +91,9 @@ h1 {
   </div>
   
   <div>
+     
     <MonComposant />
+     <div></div>
       
   </div>
 
