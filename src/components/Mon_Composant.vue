@@ -3,6 +3,15 @@
   <div class="bg-gray-100 h-350 w-full mt-10">
      
       <div class="flex  ">
+      
+           
+        
+    
+
+            
+
+
+        <div class="flex-1">
         <div class="text-left py-35 px-30  text-4xl font-bold">
         Comparer les transferts <br> d'argent par prestataire
           <div class="text-left px-2 text-sm mt-5 ">
@@ -11,7 +20,12 @@
             <div>
                 <button class="bg-green-500 text-black px-2 py-1 text-sm rounded-full ... mt-10 h-10 w-60">Voir tout les prestations</button>
             </div> 
+
             
+           
+
+            <div class="flex-1">
+                 
             <div class="flex flex-col gap-1 mt-50 items-center">
     <!-- Première ligne de cartes -->
     <div class="flex justify-center items-center bg-gray-100 gap-1">
@@ -64,17 +78,21 @@
 
         
 
-</div>
-
-     
+</div>      
     
 
-             </div>
+
+</div>
+  
+</div>
+    
+</div>
+
 
      
   
 
-         <div class="flex flex-col gap-0.5 mt-10 items-center">
+         <div class="flex flex-col gap-0.5 mt-10 px-10">
     <!-- Première ligne de cartes -->
     <div class="flex justify-center items-center bg-gray-100 gap-0.5">
         <div class="block rounded-tl-3xl bg-white shadow-md py-6 w-60">
@@ -121,15 +139,13 @@
                 <p class="text-gray-600">Online Payments</p>
             </div>
         </div>
+
+        
     </div>
-    <div class="py-30">
-         
-      salut
-    </div>
+   
 </div>
+ 
 
-
-    
 
 
 

@@ -56,9 +56,16 @@
           </div>
   
           <!-- Informations sur les taux de change et les frais -->
-          <div class="w-full text-left mt-4">
+          <div class="flex">
+            <div class="w-full  bottom-5 left-[-60px]   mt-4">
             <div class="text-sm text-gray-600">Taux de change moyen du marché: 1 EUR = 0.828345 GBP</div>
             <div class="text-sm text-gray-600">Il y a environ 2 heures</div>
+          </div>
+
+               <div class="text-">
+                
+               </div>
+          
           </div>
         <div class="">
 
