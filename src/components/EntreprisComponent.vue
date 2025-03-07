@@ -62,7 +62,7 @@ function redirectToEntreprise() {
                     
                      
                         <div class="mt-10">
-                          <button class="bg-green-500 text-black px-2 py-1  h-12 w-70  p-4   text-s=lg rounded-full ...">ouvrir un compte aujourd'hui</button>
+                          <button class="bg-green-500 text-black px-2 py-1  h-12 w-70  p-4   text-s=lg rounded-full ...">Ouvrir un compte aujourd'hui</button>
                         </div>
           </div>                                                                          
 
@@ -72,8 +72,8 @@ function redirectToEntreprise() {
 
 
 
-          <div class="bg-white h-150  w-full">      
-             <div class="flex   px-35  p-20 mt-18  ">
+          <div class=" flex  text-center bg-white h-180  w-full">      
+             <div class="flex text-center   p-25 ml-20 mt-18  ">
 
               <div class="w-100  h-105 bg-white shadow-lg rounded-2xl p-2">
     <h2 class="text-gray-700 font-bold text-lg">Vous envoyez exactement</h2>
@@ -114,16 +114,12 @@ function redirectToEntreprise() {
       <span class="text-xl font-bold">{{ recipientAmount }} GBP</span>
     </div>
   </div>   
-            <div class=" px-35 p-15 py-20 text-right text-end justify-end items-end">
+            <div class=" px-20 -mt-15 p-15 py-20 text-right text-end justify-end items-end">
                 
 
                  <div class="font-bold text-2xl  ">Payez des personnes en un clic et <br> économisez de l'argent</div>
 
-                        <div class="mt-10">
-                            <p class="text-sm">Effectuez des paiements internationaux et <br> économisez de l'argent avec Wise. Choisissez parmi plus de 70 pays et payez <br> vos employés ou vos fournisseurs à l'étranger, sans frais <br> cachés ni majorations de taux de change.
-
-</p>
-                        </div>
+                        <div class="mt-5"> Effectuez des paiements internationaux et économisez de <br> l'argent avec Wise. Choisissez parmi plus de 70 pays et payez <br> vos employés ou vos fournisseurs à l'étranger, sans <br> frais cachés ni majorations de taux de change.</div>
 
 
                             <div class="mt-10"><button class="bg-green-500 text-black px-2 py-1  p-4  h-12 w-70   text-s=lg rounded-full ..."   >Ouvrez un compte aujourd'hui</button></div>
